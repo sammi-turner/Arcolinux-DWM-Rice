@@ -1,6 +1,18 @@
 # Arcolinux-Dotfiles
 
-Basic dots for a fresh install of ArcolinuxB (KDE Plasma).
+Basic dots for a fresh install of ArcolinuxB (KDE Plasma edition).
+
+## Arcolinux Tweak Tool
+
+Using the 'Autostart' tab, I prefer to disable 'variety' and 'am-conky-session'.
+
+## Wallpapers
+
+In the '~/.local/share' directory, I like to add my own 'wallpaper' directory and use the 'slideshow' setting to randomly select a new wallpaper every five minutes.
+
+## Ricing
+
+I recommend installing the [N-Global-Theme](https://store.kde.org/p/1590092), editing the bottom panel and changing the font settings (I like 'Source Code Pro' at 10pt).
 
 ## Configuring wifi on a Thinkpad X220 with a TP-Link USB adaptor
 
