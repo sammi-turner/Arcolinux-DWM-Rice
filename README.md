@@ -12,7 +12,7 @@ In the '~/.local/share' directory, I like to add my own 'wallpaper' directory an
 
 ## Ricing
 
-I recommend installing the [N-Global-Theme](https://store.kde.org/p/1590092), editing the bottom panel and changing the font settings (I like 'Source Code Pro' at 10pt). Nord goes nicely with the [Dracula theme](https://draculatheme.com/), which is available for most userland apps.
+I recommend installing the [N-Global-Theme](https://store.kde.org/p/1590092), editing the bottom panel and changing the font settings (I like 'Source Code Pro' at 10pt). The N-Global theme goes nicely with the [Dracula theme](https://draculatheme.com/), which is available for most userland apps.
 
 ## Firefox checklist
 
