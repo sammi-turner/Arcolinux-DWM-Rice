@@ -2,9 +2,9 @@
 
 Basic dots for a fresh install of ArcolinuxB (KDE Plasma edition).
 
-## Arcolinux Tweak Tool
+## Tweak Tool
 
-Using the 'Autostart' tab, I prefer to disable 'variety' and 'am-conky-session'.
+Using the 'Autostart' tab on the 'Arcolinux Tweak Tool', I prefer to disable 'variety' and 'am-conky-session'.
 
 ## Wallpapers
 
