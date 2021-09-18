@@ -12,7 +12,15 @@ In the '~/.local/share' directory, I like to add my own 'wallpaper' directory an
 
 ## Ricing
 
-I recommend installing the [N-Global-Theme](https://store.kde.org/p/1590092), editing the bottom panel and changing the font settings (I like 'Source Code Pro' at 10pt).
+I recommend installing the [N-Global-Theme](https://store.kde.org/p/1590092), editing the bottom panel and changing the font settings (I like 'Source Code Pro' at 10pt). Nord goes nicely with the [Dracula theme](https://draculatheme.com/), which is available for most userland apps.
+
+## Firefox checklist
+
+- Customise the homepage.
+- Install the Dracula theme.
+- Install the uBlock Origin extension.
+- Install Midnight Lizard extension.
+- Install the Dracula theme for Midnight Lizard using the 'get more themes' link.
 
 ## Configuring wifi on a Thinkpad X220 with a TP-Link USB adaptor
 
