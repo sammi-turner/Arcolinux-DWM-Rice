@@ -17,11 +17,19 @@ I recommend installing the [N-Global-Theme](https://store.kde.org/p/1590092), ed
 ## Firefox checklist
 
 - Customise the homepage.
-- Install the Dracula theme.
-- Install the uBlock Origin extension.
-- Install Midnight Lizard extension.
-- Install the Dracula theme for Midnight Lizard using the 'get more themes' link.
+- Install the [Dracula Dark](https://addons.mozilla.org/en-GB/firefox/addon/dracula-dark-colorscheme/) firefox theme.
+- Install the [uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/) extension.
+- Install [Midnight Lizard](https://addons.mozilla.org/en-GB/firefox/addon/midnight-lizard-quantum/) extension.
+- Install the Dracula colour scheme for Midnight Lizard using the 'get more themes' link.
 
 ## Configuring wifi on a Thinkpad X220 with a TP-Link USB adaptor
 
 If KDE detects your wifi but prompts you more than once for the password, follow the advice from the top answer on [this stack exchange question](https://unix.stackexchange.com/questions/420497/how-do-i-stop-kwallet-from-asking-my-password-to-let-the-system-connect-to-wifi).
+
+## Torrents
+
+Transmission is not installed by default on this distro, so its worth installing the program if you want torrent lins to open.
+
+```
+sudo pacman -S transmission-gtk
+```
