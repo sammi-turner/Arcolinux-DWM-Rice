@@ -19,7 +19,7 @@ I recommend installing the [N-Global-Theme](https://store.kde.org/p/1590092), ed
 - Customise the homepage.
 - Install the [Dracula Dark](https://addons.mozilla.org/en-GB/firefox/addon/dracula-dark-colorscheme/) firefox theme.
 - Install the [uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/) extension.
-- Install [Midnight Lizard](https://addons.mozilla.org/en-GB/firefox/addon/midnight-lizard-quantum/) extension.
+- Install the [Midnight Lizard](https://addons.mozilla.org/en-GB/firefox/addon/midnight-lizard-quantum/) extension.
 - Install the Dracula colour scheme for Midnight Lizard using the 'get more themes' link.
 
 ## Configuring wifi on a Thinkpad X220 with a TP-Link USB adaptor
