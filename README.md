@@ -26,10 +26,10 @@ I recommend installing the [N-Global-Theme](https://store.kde.org/p/1590092), ed
 
 If KDE detects your wifi but prompts you more than once for the password, follow the advice from the top answer on [this stack exchange question](https://unix.stackexchange.com/questions/420497/how-do-i-stop-kwallet-from-asking-my-password-to-let-the-system-connect-to-wifi).
 
-## Torrents
+## Package checklist
 
-Transmission is not installed by default on this distro, so its worth installing the program if you want torrent lins to open.
+A few packages that I use all the time are not installed by default. To install them, enter
 
 ```
-sudo pacman -S transmission-gtk
+sudo pacman -S transmission-gtk vim git code kcalc
 ```
