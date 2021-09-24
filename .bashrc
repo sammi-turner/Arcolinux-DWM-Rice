@@ -1,4 +1,4 @@
- # ~/.bashrc
+# ~/.bashrc
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -52,6 +52,7 @@ alias sb='source .bashrc'
 
 # youtube downloader
 alias ydl='youtube-dl'
+alias ydl-mp3='youtube-dl -x -f bestaudio'
 
 # neofetch
 alias neo='neofetch'
