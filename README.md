@@ -35,5 +35,5 @@ If KDE detects your wifi but prompts you more than once for the password, follow
 A few packages that I use all the time are not installed by default. To install them, enter
 
 ```
-sudo pacman -S transmission-gtk base-devel vim git code kcalc
+sudo pacman -S transmission-gtk youtube-dl base-devel vim git code kcalc
 ```
