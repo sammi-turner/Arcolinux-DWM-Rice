@@ -2,6 +2,10 @@
 
 Basic dots for a fresh install of ArcolinuxB (KDE Plasma edition).
 
+## Update daily
+
+If you don't plan on logging in and running an update every day, then you might be better off running an [Ubuntu-based](https://github.com/sammi-turner/Ubuntu-Studio-Dotfiles) distro. Failure to regularly update regularly will eventually cause your install to break. 
+
 ## Tweak Tool
 
 Using the 'Autostart' tab on the 'Arcolinux Tweak Tool', I prefer to disable 'variety' and 'am-conky-session'.
