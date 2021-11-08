@@ -52,7 +52,7 @@ alias sb='source .bashrc'
 
 # youtube downloader
 alias ydl='youtube-dl'
-alias ydl-mp3='youtube-dl -x -f bestaudio'
+alias ydl-m4a='youtube-dl -f 139'
 
 # neofetch
 alias neo='neofetch'
