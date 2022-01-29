@@ -2,17 +2,23 @@
 
 Basic dots for a fresh install of ArcolinuxB (KDE Plasma edition).
 
-## Update daily
+## Upgrade PGP Keys
 
-If you don't plan on logging in and running an update every day, then you might be better off running an [Ubuntu-based](https://github.com/sammi-turner/Ubuntu-Studio-Dotfiles) distro. Failure to regularly update on an Arch-based distro will eventually cause your install to break. 
+Enter the following command on a fresh install.
+
+```
+sudo pacman -Sy archlinux-keyring && pacman -Su
+```
+
+Then update your packages.
+
+```
+sudo pacman -Syyu
+```
 
 ## Tweak Tool
 
-Using the 'Autostart' tab on the 'Arcolinux Tweak Tool', I prefer to disable 'variety' and 'am-conky-session'.
-
-## Wallpapers
-
-In the '~/.local/share' directory, I like to add my own 'wallpaper' directory and use the 'slideshow' setting to randomly select a new wallpaper every five minutes.
+Using the 'Autostart' tab on the 'Arcolinux Tweak Tool', I prefer to disable 'variety'.
 
 ## Ricing
 
@@ -21,6 +27,7 @@ I recommend installing the [N-Global-Theme](https://store.kde.org/p/1590092), ed
 ## Firefox checklist
 
 - Customise the homepage.
+- Change wallpaper settings.
 - Install the [Dracula Dark](https://addons.mozilla.org/en-GB/firefox/addon/dracula-dark-colorscheme/) firefox theme.
 - Install the [uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/) extension.
 - Install the [Midnight Lizard](https://addons.mozilla.org/en-GB/firefox/addon/midnight-lizard-quantum/) extension.
