@@ -1,6 +1,6 @@
 # Arcolinux-Dotfiles
 
-Basic dots for a fresh install of ArcolinuxB (KDE Plasma edition).
+Very basic dotfiles for ArcolinuxB (KDE Plasma edition).
 
 ## Update PGP Keys
 
