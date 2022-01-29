@@ -2,15 +2,17 @@
 
 Basic dots for a fresh install of ArcolinuxB (KDE Plasma edition).
 
-## Upgrade PGP Keys
+## Update PGP Keys
 
-Enter the following command on a fresh install.
+Enter the following command on a fresh install
 
 ```
 sudo pacman -Sy archlinux-keyring && pacman -Su
 ```
 
-Then update your packages.
+## Update package manager
+
+To update your packages, enter
 
 ```
 sudo pacman -Syyu
