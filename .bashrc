@@ -30,7 +30,7 @@ alias sps='sudo pacman -S'
 alias spr='sudo pacman -R'
 
 # makepkg
-alias mp='makepkg install'
+alias mp='makepkg -si'
 
 # edit this file
 alias brc='vim ~/.bashrc'
