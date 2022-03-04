@@ -25,9 +25,9 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # pacman
-alias up='sudo pacman -Syyu'
-alias sps='sudo pacman -S'
-alias spr='sudo pacman -R'
+alias up='yes | sudo pacman -Syyu'
+alias sps='yes | sudo pacman -S'
+alias spr='yes | sudo pacman -R'
 
 # makepkg
 alias mp='makepkg -si'
