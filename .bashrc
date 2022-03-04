@@ -58,8 +58,5 @@ alias ydl-140='youtube-dl -f 140'
 # neofetch
 alias neo='neofetch'
 
-# run fresh binary
-alias run='./a.out'
-
 # gnu make
 alias foo='make && ./bin/main'
