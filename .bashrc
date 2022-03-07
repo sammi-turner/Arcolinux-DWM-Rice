@@ -50,10 +50,10 @@ alias mci='sudo make clean install'
 # reload this file
 alias sb='source .bashrc'
 
-# youtube downloader
-alias ydl='youtube-dl'
-alias ydl-139='youtube-dl -f 139'
-alias ydl-140='youtube-dl -f 140'
+# download with yt-dlp
+alias dwebm='yt-dlp'
+alias dmp4='yt-dlp -f mp4'
+alias dmp3='yt-dlp -x --audio-format mp3'
 
 # neofetch
 alias neo='neofetch'
