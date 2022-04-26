@@ -4,10 +4,16 @@ Very basic dotfiles for ArcolinuxB (KDE Plasma edition).
 
 ## Update PGP Keys
 
-Enter the following command on a fresh install
+First, log in as the root user with
 
 ```
-sudo pacman -Sy archlinux-keyring && pacman -Su
+su
+```
+
+Then run this command
+
+```
+pacman -Sy archlinux-keyring && pacman -Su
 ```
 
 ## Update package manager
