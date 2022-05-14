@@ -7,7 +7,7 @@ export HISTCONTROL=ignoreboth:erasedups
 export EDITOR='vim'
 export VISUAL='vim'
 
-PS1=' \W > '
+PS1=' \W \A > '
 
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
