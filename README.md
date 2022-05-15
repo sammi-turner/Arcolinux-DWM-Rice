@@ -29,5 +29,5 @@ sudo pacman -Syyu
 A few packages that I use all the time are not installed by default. To install them, enter
 
 ```
-sudo pacman -S transmission-gtk yt-dlp base-devel vim git code kcalc audacity
+sudo pacman -S yay transmission-gtk yt-dlp base-devel vim git code kcalc audacity
 ```
