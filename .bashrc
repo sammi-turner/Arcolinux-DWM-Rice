@@ -4,8 +4,8 @@
 [[ $- != *i* ]] && return
 
 export HISTCONTROL=ignoreboth:erasedups
-export EDITOR='vim'
-export VISUAL='vim'
+export EDITOR='helix'
+export VISUAL='helix'
 
 PS1=' \W \A > '
 
@@ -29,11 +29,14 @@ alias up='yes | sudo pacman -Syyu'
 alias sps='yes | sudo pacman -S'
 alias spr='yes | sudo pacman -R'
 
+# helix
+alias hx='helix'
+
 # makepkg
 alias mp='makepkg -si'
 
 # edit this file
-alias brc='vim ~/.bashrc'
+alias brc='helix ~/.bashrc'
 
 # clear screen
 alias cls='clear'
