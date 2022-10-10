@@ -4,16 +4,11 @@ Basic dots for a fresh install.
 
 ## Update PGP Keys
 
-First, log in as the root user with
+Enter the following commands.
 
 ```
-su
-```
-
-Then run this command
-
-```
-pacman -Sy archlinux-keyring && pacman -Su
+sudo pacman-key --init
+sudo pacman-key --populate
 ```
 
 ## Update package manager
