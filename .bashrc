@@ -29,6 +29,12 @@ alias up='yes | sudo pacman -Syyu'
 alias sps='yes | sudo pacman -S'
 alias spr='yes | sudo pacman -R'
 
+# update pgp keys
+keys() {
+  sudo pacman-key --init;
+  sudo pacman-key --populate;
+}
+
 # helix
 alias hx='helix'
 
@@ -60,6 +66,3 @@ alias dmp3='yt-dlp -x --audio-format mp3'
 
 # neofetch
 alias neo='neofetch'
-
-# gnu make
-alias foo='make && ./bin/main'
