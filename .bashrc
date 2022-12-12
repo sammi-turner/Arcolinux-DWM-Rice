@@ -10,11 +10,11 @@ export VISUAL='helix'
 PS1=' \W \A > '
 
 if [ -d "$HOME/.bin" ] ;
-  then PATH="$HOME/.bin:$PATH"
+    then PATH="$HOME/.bin:$PATH"
 fi
 
 if [ -d "$HOME/.local/bin" ] ;
-  then PATH="$HOME/.local/bin:$PATH"
+    then PATH="$HOME/.local/bin:$PATH"
 fi
 
 # ls commands
@@ -28,9 +28,9 @@ alias spr='yes | sudo pacman -R'
 
 # update
 up() {
-  sudo pacman-key --init;
-  sudo pacman-key --populate;
-  sudo pacman -Syyu;
+    sudo pacman-key --init;
+    sudo pacman-key --populate;
+    sudo pacman -Syyu;
 }
 
 # helix
