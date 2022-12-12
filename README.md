@@ -2,21 +2,12 @@
 
 Basic dots for a fresh install.
 
-## Update PGP Keys
+## To update PGP keys and pacman
 
-Enter the following commands.
-
-```
-sudo pacman-key --init
-sudo pacman-key --populate
-```
-
-## Update package manager
-
-To update your packages, enter
+Use the 'up' function defined in .bashrc
 
 ```
-sudo pacman -Syyu
+up
 ```
 
 ## Package checklist
