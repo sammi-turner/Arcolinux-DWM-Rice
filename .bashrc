@@ -20,19 +20,17 @@ fi
 # ls commands
 alias dots='ls -a | sort'
 alias lst='ls | sort'
-alias ll='ls -alF'
 alias la='ls -A'
-alias l='ls -CF'
 
 # pacman
-alias up='yes | sudo pacman -Syyu'
 alias sps='yes | sudo pacman -S'
 alias spr='yes | sudo pacman -R'
 
-# update pgp keys
-keys() {
+# update
+up() {
   sudo pacman-key --init;
   sudo pacman-key --populate;
+  sudo pacman -Syyu;
 }
 
 # helix
