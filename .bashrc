@@ -36,6 +36,12 @@ up() {
 # helix
 alias hx='helix'
 
+# language server protocol
+lsp() {
+	hx --grammar fetch;
+	hx --grammar build;
+}
+
 # makepkg
 alias mp='makepkg -si'
 
