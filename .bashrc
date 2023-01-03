@@ -42,6 +42,26 @@ lsp() {
 	hx --grammar build;
 }
 
+# NEW RUST PROJECT
+nrp() {
+	cd ~/Documents/Rustlang;
+	cargo new $1;
+}
+
+# NEW GO PROJECT
+ngp() {
+	cd ~/Documents/Golang;
+	take $1;
+	touch $2;
+	hx $2;
+}
+
+# HELIX SHORTCUTS
+alias hj='hx ~/Documents/Journal'
+alias hr='hx ~/Documents/Rustlang'
+alias hg='hx ~/Documents/Golang'
+alias hz='hx ~/.zshrc'
+
 # makepkg
 alias mp='makepkg -si'
 
