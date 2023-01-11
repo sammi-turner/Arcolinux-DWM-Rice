@@ -42,15 +42,18 @@ lsp() {
 	hx --grammar build;
 }
 
+# CHANGE DIRECTORY
+alias cdr='cd ~/Documents/Rustlang'
+alias cdg='cd ~/go/src'
+
 # NEW RUST PROJECT
 nrp() {
-	cd ~/Documents/Rustlang;
 	cargo new $1;
+	cd $1;
 }
 
 # NEW GO PROJECT
 ngp() {
-	cd ~/Documents/Golang;
 	take $1;
 	hx $2;
 }
@@ -58,8 +61,9 @@ ngp() {
 # HELIX SHORTCUTS
 alias hj='hx ~/Documents/Journal'
 alias hr='hx ~/Documents/Rustlang'
-alias hg='hx ~/Documents/Golang'
+alias hg='hx ~/go/src'
 alias hz='hx ~/.zshrc'
+
 
 # makepkg
 alias mp='makepkg -si'
