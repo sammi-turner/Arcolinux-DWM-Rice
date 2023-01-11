@@ -36,35 +36,6 @@ up() {
 # helix
 alias hx='helix'
 
-# language server protocol
-lsp() {
-	hx --grammar fetch;
-	hx --grammar build;
-}
-
-# CHANGE DIRECTORY
-alias cdr='cd ~/Documents/Rustlang'
-alias cdg='cd ~/go/src'
-
-# NEW RUST PROJECT
-nrp() {
-	cargo new $1;
-	cd $1;
-}
-
-# NEW GO PROJECT
-ngp() {
-	take $1;
-	hx $2;
-}
-
-# HELIX SHORTCUTS
-alias hj='hx ~/Documents/Journal'
-alias hr='hx ~/Documents/Rustlang'
-alias hg='hx ~/go/src'
-alias hz='hx ~/.zshrc'
-
-
 # makepkg
 alias mp='makepkg -si'
 
