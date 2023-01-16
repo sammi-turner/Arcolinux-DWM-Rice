@@ -42,9 +42,6 @@ alias mp='makepkg -si'
 # edit this file
 alias brc='helix ~/.bashrc'
 
-# clear screen
-alias cls='clear'
-
 # change ownership from root to user
 alias cho='sudo chown -R $USER'
 
