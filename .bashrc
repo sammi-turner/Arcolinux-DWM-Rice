@@ -61,3 +61,9 @@ alias dmp3='yt-dlp -x --audio-format mp3'
 
 # neofetch
 alias neo='neofetch'
+
+# take command from mac os
+alias take() {
+    mkdir $1;
+    cd $1;
+}
