@@ -10,11 +10,11 @@ export VISUAL='helix'
 PS1=' \W \A > '
 
 if [ -d "$HOME/.bin" ] ;
-    then PATH="$HOME/.bin:$PATH"
+  then PATH="$HOME/.bin:$PATH"
 fi
 
 if [ -d "$HOME/.local/bin" ] ;
-    then PATH="$HOME/.local/bin:$PATH"
+  then PATH="$HOME/.local/bin:$PATH"
 fi
 
 # ls commands
@@ -28,9 +28,9 @@ alias spr='yes | sudo pacman -R'
 
 # update
 up() {
-    sudo pacman-key --init;
-    sudo pacman-key --populate;
-    sudo pacman -Syyu;
+  sudo pacman-key --init;
+  sudo pacman-key --populate;
+  sudo pacman -Syyu;
 }
 
 # helix
@@ -41,6 +41,9 @@ alias mp='makepkg -si'
 
 # edit this file
 alias brc='helix ~/.bashrc'
+
+# clear screen
+alias cls='clear'
 
 # change ownership from root to user
 alias cho='sudo chown -R $USER'
@@ -62,8 +65,25 @@ alias dmp3='yt-dlp -x --audio-format mp3'
 # neofetch
 alias neo='neofetch'
 
-# take command from mac os
-take() {
-    mkdir $1;
-    cd $1;
+# CHANGE DIRECTORY
+alias cdr='cd ~/Documents/Rustlang'
+alias cdg='cd ~/go/src'
+
+# NEW RUST PROJECT
+nrp() {
+	cargo new $1;
+	cd $1;
+	rm -rf .git;
 }
+
+# RELEASE BUILD
+alias crr='cargo run --release'
+
+# GO COMMANDS
+alias gmi='go mod init'
+alias gin='go install'
+
+# HELIX SHORTCUTS
+alias hj='helix ~/Documents/Journal'
+alias hr='helix ~/Documents/Rustlang'
+alias hg='helix ~/go/src'
