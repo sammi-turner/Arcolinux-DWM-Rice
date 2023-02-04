@@ -1,9 +1,10 @@
-theme = "monokai_pro_octagon"
+theme = "solarized_dark"
 
 [editor]
 line-number = "relative"
 cursorline = true
 color-modes = true
+auto-completion = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -12,3 +13,6 @@ select = "underline"
 
 [editor.indent-guides]
 render = true
+
+[editor.lsp]
+display-messages = false
