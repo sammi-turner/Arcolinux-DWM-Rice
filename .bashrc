@@ -143,3 +143,5 @@ get_gif() {
 	make_gif "$4";
 	rm "$4".mp4;
 }
+
+setxkbmap us
