@@ -1,4 +1,4 @@
-theme = "solarized_dark"
+theme = "catppuccin_mocha"
 
 [editor]
 line-number = "relative"
