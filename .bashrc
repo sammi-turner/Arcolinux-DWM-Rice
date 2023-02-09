@@ -65,7 +65,7 @@ alias cdg='cd ~/go/src'
 
 # NEW RUST PROJECT
 nrp() {
-	cargo new $1;
+	cargo init $1;
 	cd $1;
 	rm -rf .git;
 }
