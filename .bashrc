@@ -70,8 +70,10 @@ nrp() {
 	rm -rf .git;
 }
 
-# RELEASE BUILD
+# CARGO RUN
+alias cr='cargo run'
 alias crr='cargo run --release'
+alias crl='cargo run 2> cargo.log'
 
 # GO COMMANDS
 alias gmi='go mod init'
