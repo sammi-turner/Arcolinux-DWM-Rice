@@ -15,5 +15,5 @@ up
 A few packages that I use all the time are not installed by default. To install them, enter
 
 ```
-sudo pacman -S yay transmission-gtk yt-dlp base-devel helix git galculator vlc audacity lxappearance scrot
+sudo pacman -S base-devel gnome-terminal docker yay transmission-gtk yt-dlp helix git galculator vlc audacity lxappearance flameshot
 ```
