@@ -48,6 +48,10 @@ alias cho='sudo chown -R $USER'
 # CLONE A REPO
 alias gcl='git clone'
 
+# DOCKER COMMANDS
+alias start='sudo systemctl start docker.service'
+alias run='sudo docker run'
+
 # INSTALL WITH MAKE
 alias mci='sudo make clean install'
 
