@@ -12,8 +12,8 @@ up
 
 ## Package checklist
 
-A few packages that I use all the time are not installed by default. To install them, enter
+To install some useful packages, enter
 
 ```
-sudo pacman -S base-devel termite gnome-terminal docker yay transmission-gtk yt-dlp helix git galculator vlc audacity lxappearance flameshot
+sudo pacman -S base-devel termite helix git yay transmission-gtk yt-dlp galculator vlc audacity lxappearance flameshot gnome-terminal docker
 ```
