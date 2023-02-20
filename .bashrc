@@ -33,6 +33,12 @@ up() {
   sudo pacman -Syyu;
 }
 
+# TAKE COMMAND
+take() {
+  mkdir $1;
+  cd $1;	
+}
+
 # HELIX
 alias hx='helix'
 
