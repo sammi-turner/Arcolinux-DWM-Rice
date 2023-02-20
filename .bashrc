@@ -28,15 +28,15 @@ alias spr='yes | sudo pacman -R'
 
 # UPDATE
 up() {
-  sudo pacman-key --init;
-  sudo pacman-key --populate;
-  sudo pacman -Syyu;
+    sudo pacman-key --init;
+    sudo pacman-key --populate;
+    sudo pacman -Syyu;
 }
 
 # TAKE COMMAND
 take() {
-  mkdir $1;
-  cd $1;	
+    mkdir $1;
+    cd $1;	
 }
 
 # HELIX
