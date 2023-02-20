@@ -10,11 +10,11 @@ export VISUAL='helix'
 PS1=' \W \A > '
 
 if [ -d "$HOME/.bin" ] ;
-  then PATH="$HOME/.bin:$PATH"
+    then PATH="$HOME/.bin:$PATH"
 fi
 
 if [ -d "$HOME/.local/bin" ] ;
-  then PATH="$HOME/.local/bin:$PATH"
+    then PATH="$HOME/.local/bin:$PATH"
 fi
 
 # LS COMMANDS
