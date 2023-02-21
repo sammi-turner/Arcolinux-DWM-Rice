@@ -91,7 +91,7 @@ alias gin='go install'
 
 # HELIX SHORTCUTS
 alias hj='helix ~/Documents/Journal'
-alias hr='helix ~/Documents/Rustlang'
+alias hr='helix ~/Rustlang'
 alias hg='helix ~/go/src'
 
 # NEOFETCH
