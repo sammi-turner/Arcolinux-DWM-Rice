@@ -70,7 +70,7 @@ alias dmp4='yt-dlp -f mp4'
 alias dmp3='yt-dlp -x --audio-format mp3'
 
 # CHANGE DIRECTORY
-alias cdr='cd ~/Documents/Rustlang'
+alias cdr='cd ~/Rustlang'
 alias cdg='cd ~/go/src'
 
 # NEW RUST PROJECT
@@ -80,10 +80,13 @@ nrp() {
 	rm -rf .git;
 }
 
+# CARGO CHECK
+alias cc='cargo check'
+alias ccl='cargo check 2> cargo.log'
+
 # CARGO RUN
 alias cr='cargo run'
 alias crr='cargo run --release'
-alias crl='cargo run 2> cargo.log'
 
 # GO COMMANDS
 alias gmi='go mod init'
