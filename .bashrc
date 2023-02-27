@@ -23,8 +23,8 @@ alias lst='ls | sort'
 alias la='ls -A'
 
 # PACMAN
-alias sps='yes | sudo pacman -S'
-alias spr='yes | sudo pacman -R'
+alias sps='sudo pacman -S'
+alias spr='sudo pacman -R'
 
 # UPDATE
 up() {
