@@ -44,10 +44,6 @@ mod + shift + 1 .. 0
 
 alt + b
 
-### Pavucontrol
-
-alt + v
-
 ### Termite
 
 alt + Return
@@ -58,15 +54,15 @@ alt + f
 
 ### Rofi
 
-alt + shift + d
+alt + d
 
 ### Rofi theme selector
 
 alt + shift + t
 
-### Reload sxhkd
+### Pavucontrol
 
-alt + shift + s
+alt + v
 
 ### Arcolinux-welcome-app
 
@@ -76,13 +72,9 @@ alt + w
 
 alt + n
 
-### Pamac-manager
+### Pamac
 
 alt + p
-
-### Picom Toggle
-
-alt + shift + p
 
 ### Scrot
 
@@ -91,6 +83,14 @@ Print
 ### Flameshot
 
 shift + Print
+
+### Picom toggle
+
+alt + shift + p
+
+### Reload sxhkd
+
+alt + shift + s
 
 ### Logout
 
