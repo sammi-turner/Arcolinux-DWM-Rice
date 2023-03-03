@@ -51,13 +51,13 @@ Note that this change will only activate after logging back in.
 make clean install
 ```
 
-7. Logout, then log back in.
-
-8. Install the following packages from the AUR
+7. Install the following packages from the AUR
 
 ```
 dracula-gtk-theme
 tela-icon-theme
 ```
 
-9. Open lxappearance and choose the preferred settings.
+8. Open lxappearance and choose your preferred settings.
+
+9. Logout, then log back in.
