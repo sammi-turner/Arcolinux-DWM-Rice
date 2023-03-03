@@ -15,5 +15,5 @@ up
 To install some useful packages, enter
 
 ```
-sudo pacman -S base-devel termite helix git yay transmission-gtk yt-dlp galculator vlc audacity lxappearance flameshot gnome-terminal docker
+sudo pacman -S base-devel termite helix transmission-gtk yt-dlp galculator vlc audacity
 ```
