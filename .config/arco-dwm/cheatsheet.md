@@ -16,10 +16,6 @@ alt + b
 
 F12
 
-## Rofi theme selector
-
-alt + shift + t
-
 ## Pavucontrol
 
 alt + v
@@ -39,6 +35,10 @@ alt + d
 ## Rofi
 
 alt + shift + d
+
+## Rofi theme selector
+
+alt + shift + t
 
 ## Reload sxhkd
 
