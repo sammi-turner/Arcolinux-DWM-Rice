@@ -4,7 +4,7 @@
 
 https://dwm.suckless.org
 
-## Super
+## Mod
 
 Windows key
 
@@ -12,31 +12,31 @@ Windows key
 
 ### Dmenu
 
-Super + d
+mod + p
 
 ### Close window
 
-Super + q
+mod + q
 
 ### Toggle tiling/floating
  
-Super + shift + space
+mod + shift + space
 
 ### Move window
 
-Super + left mouse button
+mod + left mouse button
 
 ### Resize window
 
-Super + right mouse button
+mod + right mouse button
 
 ### Switch to numbered workspace
 
-Super + 1 .. 0
+mod + 1 .. 0
 
 ### Move container to workspace
 
-Super + shift + 1 .. 0
+mod + shift + 1 .. 0
 
 ## Keybinds set in sxhkdrc 
 
