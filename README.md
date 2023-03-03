@@ -1,5 +1,9 @@
 # Arcolinux-DWM
 
+## Keybinds
+
+Are listed in the cheatsheet.
+
 ## Checklist
 
 1. Remove the variety and conky packages using pamac. 
