@@ -1,5 +1,9 @@
 # Arcolinux-DWM
 
+## Download ISO
+
+[Arcolinux torrents](https://fosstorrents.com/distributions/arcolinux/)
+
 ## Keybinds
 
 Are listed in the cheatsheet.
@@ -8,7 +12,7 @@ Are listed in the cheatsheet.
 
 1. Remove the variety and conky packages using pamac. 
 
-2. Add the nitrogen pcakage using pamac.
+2. Add the nitrogen package using pamac.
 
 3. Update existing packages with pamac.
 
