@@ -14,10 +14,10 @@ Logout, then log back in.
 
 3. Replace existing dotfiles with the ones in this repo.
 
-4. Recompile DWM using the newly defined alias
+4. Recompile DWM with the command
 
 ```
-mci
+make clean install
 ```
 
 Logout, then log back in.
