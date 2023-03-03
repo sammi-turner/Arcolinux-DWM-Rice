@@ -41,23 +41,23 @@ sudo pacman -S xfce4 xfce4-goodies
 $ chsh -s /bin/zsh
 ```
 
-5. Logout, then log back in.
+Note that this change will only activate after logging back in.
 
-6. Replace existing dotfiles with the ones in this repo.
+5. Replace existing dotfiles with the ones in this repo.
 
-7. Recompile DWM with the command
+6. Recompile DWM with the command
 
 ```
 make clean install
 ```
 
-8. Logout, then log back in.
+7. Logout, then log back in.
 
-9. Install the following packages from the AUR
+8. Install the following packages from the AUR
 
 ```
 dracula-gtk-theme
 tela-icon-theme
 ```
 
-10. Open lxappearance and choose the preferred settings.
+9. Open lxappearance and choose the preferred settings.
