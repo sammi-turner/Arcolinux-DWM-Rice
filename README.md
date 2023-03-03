@@ -8,13 +8,31 @@
 
 Are listed in the cheatsheet.
 
-## Checklist
+## Post install checklist
 
-1. Remove the variety and conky packages using pamac. 
+1. Remove the following packages using pamac.
 
-2. Add the nitrogen package using pamac.
+```
+variety
+conky
+```
 
-3. Update existing packages with pamac.
+2. Add the following packages using pamac.
+
+```
+helix
+transmission-gtk 
+yt-dlp 
+galculator 
+vlc 
+audacity
+```
+
+3. I like to have a back-up desktop environment in case dwm breaks, so I would also install the following at the terminal
+
+```
+sudo pacman -S xfce4 xfce4-goodies
+```
 
 4. Change the default shell to zsh with
 
@@ -34,8 +52,9 @@ make clean install
 
 8. Logout, then log back in.
 
-9. Install these packages,
+9. Install the following packages from the AUR
 
 ```
-sudo pacman -S base-devel termite helix transmission-gtk yt-dlp galculator vlc audacity
+dracula-gtk-theme
+tela-icon-theme
 ```
