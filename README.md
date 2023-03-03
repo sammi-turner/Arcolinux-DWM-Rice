@@ -28,7 +28,7 @@ vlc
 audacity
 ```
 
-3. I like to have a back-up desktop environment in case dwm breaks, so I would also install the following at the terminal
+3. I like to have a back-up desktop environment in case DWM breaks, so I would also install xfce4 at the terminal.
 
 ```
 sudo pacman -S xfce4 xfce4-goodies
@@ -58,3 +58,5 @@ make clean install
 dracula-gtk-theme
 tela-icon-theme
 ```
+
+10. Open lxappearance and choose the preferred settings.
