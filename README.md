@@ -4,28 +4,30 @@
 
 1. Remove the variety and conky packages using pamac. 
 
-2. Update existing packages with pamac.
+2. Add the nitrogen pcakage using pamac.
 
-3. Change the default shell to zsh with
+3. Update existing packages with pamac.
+
+4. Change the default shell to zsh with
 
 ```
 $ chsh -s /bin/zsh
 ```
 
-4. Logout, then log back in.
+5. Logout, then log back in.
 
-5. Replace existing dotfiles with the ones in this repo.
+6. Replace existing dotfiles with the ones in this repo.
 
-6. Recompile DWM with the command
+7. Recompile DWM with the command
 
 ```
 make clean install
 ```
 
-7. Logout, then log back in.
+8. Logout, then log back in.
 
-8. To install some useful packages, enter
+9. Install these packages,
 
 ```
-sudo pacman -S base-devel nitrogen termite helix transmission-gtk yt-dlp galculator vlc audacity
+sudo pacman -S base-devel termite helix transmission-gtk yt-dlp galculator vlc audacity
 ```
