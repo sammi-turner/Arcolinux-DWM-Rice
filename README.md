@@ -20,6 +20,7 @@ conky
 2. Add the following packages using pamac.
 
 ```
+base devel
 helix
 transmission-gtk 
 yt-dlp 
