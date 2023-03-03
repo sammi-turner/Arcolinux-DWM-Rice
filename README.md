@@ -43,7 +43,12 @@ $ chsh -s /bin/zsh
 
 Note that this change will only activate after logging back in.
 
-5. Replace existing dotfiles with the ones in this repo.
+5. Replace existing dotfiles with the ones in this repo and make the following scripts executable.
+
+```
+.config/dwm-arco/sxhkd/sxhkdrc
+.config/autostart.sh
+```
 
 6. Recompile DWM with the command
 
@@ -62,13 +67,4 @@ tela-icon-theme
 
 9. Open nitrogen and choose your default wallpaper.
 
-10. Make the following scripts executable
-
-```
-.config/dwm-arco/sxhkd/sxhkdrc
-.config/autostart.sh
-```
-
-11. Log out.
-
-12. Log back in.
+10. Log out and log back in again.
