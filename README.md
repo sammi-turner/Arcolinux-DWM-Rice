@@ -6,7 +6,7 @@
 
 ## Keybinds
 
-Are listed in the cheatsheet.
+Keybinds are listed in the cheatsheet.
 
 ## Post install checklist
 
