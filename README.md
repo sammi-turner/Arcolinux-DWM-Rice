@@ -1,19 +1,31 @@
-# Arcolinux-Dotfiles
+# Arcolinux-DWM
 
-Basic dots for a fresh install.
+## Checklist
 
-## To update PGP keys and pacman
+1. Update packages with pamac.
 
-Use the 'up' function defined in .bashrc
-
-```
-up
-```
-
-## Package checklist
-
-To install some useful packages, enter
+2. Change the default shell to Zsh with
 
 ```
-sudo pacman -S base-devel termite helix transmission-gtk yt-dlp galculator vlc audacity
+$ chsh -s /bin/zsh
 ```
+
+Logout, then log back in.
+
+3. Replace existing dotfiles with the ones in this repo.
+
+4. Recompile DWM using the newly defined alias
+
+```
+mci
+```
+
+Logout, then log back in.
+
+4. To install some useful packages, enter
+
+```
+sudo pacman -S base-devel nitrogen termite helix transmission-gtk yt-dlp galculator vlc audacity
+```
+
+5. Remove variety and conky packages using pamac. 
