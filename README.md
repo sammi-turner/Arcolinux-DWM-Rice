@@ -62,4 +62,13 @@ tela-icon-theme
 
 9. Open nitrogen and choose your default wallpaper.
 
-10. Logout, then log back in.
+10. Make the following scripts executable
+
+```
+.config/dwm-arco/sxhkd/sxhkdrc
+.config/autostart.sh
+```
+
+11. Log out.
+
+12. Log back in.
