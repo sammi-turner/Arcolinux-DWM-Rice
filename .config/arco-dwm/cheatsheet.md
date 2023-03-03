@@ -1,8 +1,12 @@
 # Cheat sheet
 
-Suckless website = https://dwm.suckless.org
+## Suckless website
 
-Super = Windows Key
+https://dwm.suckless.org
+
+## Super
+
+Windows Key
 
 ## Firefox
 
