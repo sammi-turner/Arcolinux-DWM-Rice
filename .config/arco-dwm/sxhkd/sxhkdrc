@@ -1,42 +1,26 @@
-# Browser
+# Firefox
 alt + b
     firefox
-
-# Logout
-F12
-    archlinux-logout
-
-# Rofi theme selector
-super + shift + t
-    rofi-theme-selector
-
-# Pavucontrol
-alt + v
-    pavucontrol
 
 # Termite
 alt + Return
     termite
 
-# Xkill
-super + Escape
-    xkill
-
-# File-Manager
+# Thunar
 alt + f
 	thunar
 
-# Dmenu
-alt + d
-	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
-
 # Rofi
-alt + shift + d
+alt + d
     ~/.config/arco-dwm/launcher/launcher.sh
 
-# Reload sxhkd:
-alt + shift + s
-	pkill -USR1 -x sxhkd
+# Rofi theme selector
+alt + shift + t
+    rofi-theme-selector
+
+# Pavucontrol
+alt + v
+    pavucontrol
 
 # Arcolinux-welcome-app
 alt + w
@@ -44,25 +28,37 @@ alt + w
 
 # Nitrogen
 alt + n
-     nitrogen
+	nitrogen
 
-# Pamac-manager
+# Pamac
 alt + p
     pamac-manager
 
 # Scrot
 Print
-    scrot 'ArcoLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+    scrot
 
 # Flameshot
 shift + Print
      flameshot gui
 
-# Raises volume
+# Picom Toggle
+alt + shift + p
+    ~/.config/arco-dwm/scripts/picom-toggle.sh
+
+# Reload sxhkd
+alt + shift + s
+	pkill -USR1 -x sxhkd
+
+# Logout
+F12
+    archlinux-logout
+
+# Raise volume
 XF86AudioRaiseVolume
     amixer -D pulse set Master 10%+
 
-# Lowers volume
+# Lower volume
 XF86AudioLowerVolume
     amixer -D pulse set Master 10%-
 
@@ -70,7 +66,7 @@ XF86AudioLowerVolume
 XF86AudioMute
     amixer -D pulse set Master 1+ toggle
 
-# PLAY
+# Play
 XF86AudioPlay
     playerctl play-pause
 
@@ -90,10 +86,6 @@ XF86AudioStop
 XF86MonBrightnessUp
     xbacklight -inc 10
 
-#Brightness down
+# Brightness down
 XF86MonBrightnessDown
     xbacklight -dec 10
-
-# Picom Toggle
-alt + shift + p
-    ~/.config/arco-dwm/scripts/picom-toggle.sh
