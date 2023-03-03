@@ -60,4 +60,6 @@ tela-icon-theme
 
 8. Open lxappearance and choose your preferred settings.
 
-9. Logout, then log back in.
+9. Open nitrogen and choose your default wallpaper.
+
+10. Logout, then log back in.
