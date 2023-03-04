@@ -70,4 +70,6 @@ tela-icon-theme
 
 9. Open nitrogen and choose your default wallpaper.
 
-10. Log out and log back in again.
+10. Install Rust with [these instructions](https://www.rust-lang.org/tools/install).
+
+11. Log out and log back in again.
