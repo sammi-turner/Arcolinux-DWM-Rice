@@ -29,6 +29,7 @@ yt-dlp
 galculator 
 vlc 
 audacity
+kolourpaint
 ```
 
 3. I like to have a back-up desktop environment in case DWM breaks, so I would also install xfce4 at the terminal.
