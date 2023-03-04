@@ -1,5 +1,7 @@
 # Arcolinux-DWM
 
+<img src="arco-dwm-rice.png" width="100%" height="auto" />
+
 ## Download ISO
 
 [Arcolinux torrents](https://fosstorrents.com/distributions/arcolinux/)
