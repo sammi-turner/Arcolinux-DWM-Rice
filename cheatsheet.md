@@ -24,6 +24,46 @@ mod + right
 mod + j
 mod + left
 
+### Enlarge master
+
+mod + l
+
+### Reduce master
+
+mod + h
+
+### Increase gap size
+
+mod + =
+
+### Reduce gap size
+
+mod + -
+
+### Zero gaps
+
+mod + shift + =
+
+### Tiling layout
+
+mod + t
+
+### Grid layout
+
+mod + g
+
+### Monocle layout
+
+mod + m
+
+### Floating layout
+
+mod + f
+
+### Toggle floating
+
+mod + shift + space
+
 ### Close window
 
 mod + q
