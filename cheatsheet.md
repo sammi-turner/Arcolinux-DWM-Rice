@@ -44,6 +44,10 @@ mod + -
 
 mod + shift + =
 
+### Quit focusd window
+
+mod + q
+
 ### Tiling layout
 
 mod + t
@@ -64,13 +68,9 @@ mod + f
 
 mod + shift + space
 
-### Close window
+### Show all windows
 
-mod + q
-
-### Toggle tiling/floating
- 
-mod + shift + space
+mod + 0
 
 ### Move window
 
