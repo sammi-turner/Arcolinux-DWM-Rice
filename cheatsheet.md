@@ -44,7 +44,7 @@ mod + -
 
 mod + shift + =
 
-### Quit focusd window
+### Quit focused window
 
 mod + q
 
