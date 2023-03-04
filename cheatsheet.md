@@ -70,7 +70,7 @@ mod + shift + space
 
 ### Show all windows
 
-mod + 0
+mod + shift + r
 
 ### Move window
 
