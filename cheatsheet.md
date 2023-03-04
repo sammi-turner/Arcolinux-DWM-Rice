@@ -88,6 +88,14 @@ mod + 1 .. 0
 
 mod + shift + 1 .. 0
 
+### View next tag
+
+alt + ctrl + right arrow
+
+### View previous tag
+
+alt + ctrl + left arrow
+
 ## Keybinds set in sxhkdrc 
 
 ### Firefox
