@@ -16,13 +16,13 @@ mod + p
 
 ### Move focus clockwise
 
-mod + k
+mod + j
 
 mod + right
 
 ### Move focus anti-clockwise
 
-mod + j
+mod + k
 
 mod + left
 
