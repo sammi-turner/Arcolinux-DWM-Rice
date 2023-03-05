@@ -17,11 +17,13 @@ mod + p
 ### Move focus clockwise
 
 mod + k
+
 mod + right
 
 ### Move focus anti-clockwise
 
 mod + j
+
 mod + left
 
 ### Enlarge master
