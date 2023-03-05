@@ -10,14 +10,6 @@ alt + Return
 alt + f
 	thunar
 
-# Rofi
-alt + d
-    ~/.config/arco-dwm/launcher/launcher.sh
-
-# Rofi theme selector
-alt + shift + t
-    rofi-theme-selector
-
 # Pavucontrol
 alt + v
     pavucontrol
@@ -28,7 +20,7 @@ alt + w
 
 # Nitrogen
 alt + n
-	nitrogen
+     nitrogen
 
 # Pamac
 alt + p
@@ -89,3 +81,4 @@ XF86MonBrightnessUp
 # Brightness down
 XF86MonBrightnessDown
     xbacklight -dec 10
+
