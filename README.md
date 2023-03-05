@@ -46,7 +46,19 @@ $ chsh -s /bin/zsh
 
 Note that this change will only activate after logging back in.
 
-5. Replace the existing dotfiles with the ones in this repo and make the following scripts executable.
+5. Replace the existing dotfiles with the ones in this repo and make the following scripts executable, with the possible exeption of
+
+```
+.config/user-dirs.locale
+```
+
+Mine is set to 
+
+```
+en_GB
+```
+
+but you might prefer US English or a different language instead.
 
 ```
 .config/dwm-arco/sxhkd/sxhkdrc
