@@ -74,14 +74,6 @@ mod + shift + space
 
 mod + shift + r
 
-### Move window
-
-mod + left mouse button
-
-### Resize window
-
-mod + right mouse button
-
 ### Switch to numbered workspace
 
 mod + 1 .. 0
