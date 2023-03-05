@@ -104,14 +104,6 @@ alt + Return
 
 alt + f
 
-### Rofi
-
-alt + d
-
-### Rofi theme selector
-
-alt + shift + t
-
 ### Pavucontrol
 
 alt + v
