@@ -17,6 +17,7 @@ Keybinds are listed in the cheatsheet.
 ```
 variety
 conky
+rofi
 ```
 
 2. Add the following packages using pamac.
