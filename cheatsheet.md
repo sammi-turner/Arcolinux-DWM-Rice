@@ -14,17 +14,17 @@ Windows key
 
 mod + p
 
-### Move focus anti-clockwise
-
-mod + k
-
-mod + left
-
 ### Move focus clockwise
 
 mod + j
 
 mod + right
+
+### Move focus anti-clockwise
+
+mod + k
+
+mod + left
 
 ### Rotate stack clockwise
 
