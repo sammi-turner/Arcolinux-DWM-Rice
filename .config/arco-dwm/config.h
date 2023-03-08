@@ -1,25 +1,25 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx			  	= 1;        /* border pixel of windows */
-static const unsigned int gappx     			= 5;        /* gaps between windows */
-static const unsigned int snap      			= 32;       /* snap pixel */
-static const unsigned int systraypinning 		= 0;   		/* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
-static const unsigned int systrayspacing 		= 2;   		/* systray spacing */
-static const int systraypinningfailfirst 		 = 1;   	 /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
-static const int showsystray        			= 1;     	/* 0 means no systray */
-static const int showbar            			= 1;        /* 0 means no bar */
-static const int topbar             			= 1;        /* 0 means bottom bar */
-static const Bool viewontag         			= True;     /* Switch view on tag switch */
-static const char *fonts[]          			= { "Source Code Pro:size=10" };
-static const char dmenufont[]       			= "monospace:size=10";
-static const char col_gray1[]       			= "#000000";
-static const char col_gray2[]       			= "#444444";
-static const char col_gray3[]       			= "#bbbbbb";
-static const char col_gray4[]       			= "#eeeeee";
-static const char col_cyan[]        			= "#000000";
-static const unsigned int baralpha 				= 0xd0;
-static const unsigned int borderalpha 			= OPAQUE;
+static const unsigned int borderpx				  	= 1;        /* border pixel of windows */
+static const unsigned int gappx     					= 5;        /* gaps between windows */
+static const unsigned int snap      					= 32;       /* snap pixel */
+static const unsigned int systraypinning 			= 0;   		/* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
+static const unsigned int systrayspacing 			= 2;   		/* systray spacing */
+static const int systraypinningfailfirst 		 	= 1;   	 /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
+static const int showsystray        					= 1;     	/* 0 means no systray */
+static const int showbar            					= 1;        /* 0 means no bar */
+static const int topbar             					= 1;        /* 0 means bottom bar */
+static const Bool viewontag         					= True;     /* Switch view on tag switch */
+static const char *fonts[]          					= { "Source Code Pro:size=10" };
+static const char dmenufont[]       					= "monospace:size=10";
+static const char col_gray1[]       					= "#000000";
+static const char col_gray2[]       					= "#444444";
+static const char col_gray3[]       					= "#bbbbbb";
+static const char col_gray4[]       					= "#eeeeee";
+static const char col_cyan[]        					= "#000000";
+static const unsigned int baralpha 						= 0xd0;
+static const unsigned int borderalpha 				= OPAQUE;
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -46,17 +46,17 @@ static const Rule rules[] = {
 	 *  use tags mask to point an application to a specific workspace
 	 */
 	/* class                       		instance    title      tags mask      isfloating   monitor */
-	{ "Gimp",                      			NULL,       NULL,       0,            0,           -1 },
-	{ "Xfce4-terminal",            			NULL,       NULL,       0,            1,           -1 },
-	{ "firefox",                   			 NULL,       NULL,       0,            0,           -1 },
-	{ "Arcolinux-welcome-app.py",  			NULL,       NULL,       0,            1,           -1 },
+	{ "Gimp",                      				NULL,       NULL,       0,            0,           -1 },
+	{ "Xfce4-terminal",            				NULL,       NULL,       0,            1,           -1 },
+	{ "firefox",                   			 	NULL,       NULL,       0,            0,           -1 },
+	{ "Arcolinux-welcome-app.py",  				NULL,       NULL,       0,            1,           -1 },
 	{ "Arcolinux-calamares-tool.py",  		NULL,       NULL,       0,            1,           -1 },	
 };
 
 /* layout(s) */
-static const float mfact     		= 0.50; /* factor of master area size [0.05..0.95] */
-static const int nmaster     	   = 1;    /* number of clients in master area */
-static const int resizehints       = 1;    /* 1 means respect size hints in tiled resizals */
+static const float mfact     				= 0.50; /* factor of master area size [0.05..0.95] */
+static const int nmaster     	   		= 1;    /* number of clients in master area */
+static const int resizehints       	= 1;    /* 1 means respect size hints in tiled resizals */
 
 #include "layouts.c"
 
@@ -99,12 +99,14 @@ static Key keys[] = {
 	{ MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
 	{ MODKEY,                       XK_equal,  setgaps,        {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = 0  } },
-	{ MODKEY,				        XK_q,      killclient,     {0} },
+	{ MODKEY,				        				XK_q,      killclient,     {0} },
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_g,      setlayout,      {.v = &layouts[1]} },
-	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
-	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[3]} },
-	{ MODKEY|ShiftMask,             XK_space,  togglefloating,  {0} },
+	{ MODKEY,                       XK_m,      setlayout, 	   {.v = &layouts[2]} },
+	{ MODKEY,                       XK_f,      setlayout,	  	 {.v = &layouts[3]} },
+  { MODKEY|ShiftMask,             XK_j,      rotatestack,    {.i = +1 } },
+	{ MODKEY|ShiftMask,             XK_k,      rotatestack,    {.i = -1 } },
+	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
 	{ MODKEY|ShiftMask,             XK_r,      self_restart,   {0} },
 	{ Mod1Mask|ControlMask,         XK_Right,  shiftview,      {.i =  1 } },
 	{ Mod1Mask|ControlMask,         XK_Left,   shiftview,      {.i = -1 } },	TAGKEYS(                        XK_1,                      0)
