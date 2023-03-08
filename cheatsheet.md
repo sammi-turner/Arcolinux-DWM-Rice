@@ -26,11 +26,11 @@ mod + j
 
 mod + right
 
-### Rotate stack anti-clockwise
+### Rotate stack clockwise
 
 mod + shift + j
 
-### Rotate stack clockwise
+### Rotate stack anti-clockwise
 
 mod + shift + k
 
