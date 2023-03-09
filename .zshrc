@@ -96,6 +96,10 @@ alias dmp3='yt-dlp -x --audio-format mp3'
 alias cdr='cd ~/Rustlang'
 alias cdg='cd ~/go/src'
 
+# ASTRO COMMANDS
+alias pca='pnpm create astro@latest'
+alias prd='pnpm run dev'
+
 # NEW RUST PROJECT
 nrp() {
 	  cargo init $1;
