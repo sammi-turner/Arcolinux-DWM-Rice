@@ -1,5 +1,8 @@
 theme = "base16_transparent"
 
+[editor.soft-wrap]
+enable = true
+
 [editor]
 line-number = "relative"
 cursorline = true
