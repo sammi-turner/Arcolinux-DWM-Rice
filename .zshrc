@@ -42,15 +42,15 @@ alias rmlock="sudo rm /var/lib/pacman/db.lck"
 
 # DEPENDS
 depends()  {
-    search=$(echo "$1")
-    sudo pacman -Sii $search | grep "Required" | sed -e "s/Required By     : //g" | sed -e "s/  /\n/g"
+  search=$(echo "$1")
+  sudo pacman -Sii $search | grep "Required" | sed -e "s/Required By     : //g" | sed -e "s/  /\n/g"
 }
 
 # UPDATE
 up() {
-    sudo pacman-key --init;
-    sudo pacman-key --populate;
-    sudo pacman -Syyu;  
+  sudo pacman-key --init;
+  sudo pacman-key --populate;
+  sudo pacman -Syyu;  
 }
 
 # PARU UPDATE
@@ -92,37 +92,48 @@ alias dwebm='yt-dlp'
 alias dmp4='yt-dlp -f mp4'
 alias dmp3='yt-dlp -x --audio-format mp3'
 
-# CHANGE DIRECTORY
-alias cdr='cd ~/Rustlang'
-alias cdg='cd ~/go/src'
+# DEFAULT EDITOR
+export EDITOR='hx'
 
-# ASTRO COMMANDS
-alias pca='pnpm create astro@latest'
-alias prd='pnpm run dev'
-
-# NEW RUST PROJECT
-nrp() {
-	  cargo init $1;
-	  cd $1;
-	  rm -rf .git;
+# LANGUAGE SERVER PROTOCOL
+lsp() {
+	hx --grammar fetch;
+	hx --grammar build;
 }
 
-# CARGO CHECK
-alias cc='cargo check'
-alias ccl='cargo check 2> cargo.log'
+# EXIT
+alias e='exit'
 
-# CARGO RUN
-alias cr='cargo run'
-alias crr='cargo run --release'
+# OPEN THIS FILE IN HELIX
+alias zrc='hx .zshrc'
 
-# GO COMMANDS
-alias gmi='go mod init'
-alias gin='go install'
+# LS ALIASES
+alias dots='ls -a | sort'
+alias lst='ls | sort'
+alias la='ls -A'
 
-# HELIX SHORTCUTS
-alias hj='helix ~/Documents/Journal'
-alias hr='helix ~/Rustlang'
-alias hg='helix ~/go/src'
+# C++ ALIASES
+alias run='./bin/main'
+alias mar='make && ./bin/main'
+
+# GIT CLONE
+alias gcl='git clone'
+
+# REMOVE GIT FOLDER
+alias rmg='rm -rf .git'
+
+# GIT ADD-COMMIT-PUSH
+# The $1 parameter is the commit message.
+acp() {
+	git add .;
+	git commit -m $1;
+	git push;
+}
+
+# YT-DLP
+alias dwebm='yt-dlp'
+alias dmp4='yt-dlp -f mp4'
+alias dmp3='yt-dlp -x --audio-format mp3'
 
 # NEOFETCH
 alias neo='neofetch'
@@ -132,7 +143,7 @@ alias neo='neofetch'
 # It generates a series of jpg images from an mp4 file.
 # Its $1 parameter is the file name.
 stills() {
-	  ffmpeg -i "$1".mp4 thumb%04d.jpg -hide_banner
+	ffmpeg -i "$1".mp4 thumb%04d.jpg -hide_banner
 }
 
 # CLIP
@@ -144,7 +155,7 @@ stills() {
 # $3 is the clip duration in seconds.
 # $4 is the output file name.
 clip() {
-	  ffmpeg -i "$1".mp4 -ss "$2" -t "$3" "$4".mp4
+	ffmpeg -i "$1".mp4 -ss "$2" -t "$3" "$4".mp4
 }
 
 # PLAY
@@ -155,7 +166,7 @@ clip() {
 # $2 is the end time.
 # $3 is the file name.
 play() {
-	  ffplay -ss "$1" -t "$2" "$3".mp4
+	ffplay -ss "$1" -t "$2" "$3".mp4
 }
 
 # PRE GIF
@@ -169,7 +180,7 @@ pre_gif() {
 # This function uses ffmpeg and imagemagick.
 # It is a helper function called by get_gif.
 make_gif() {
-	  ffmpeg -i "$1".mp4 -vf "fps=10,scale=640:-1:flags=lanczos" -c:v pam -f image2pipe - | convert -delay 10 - -loop 0 -layers optimize "$1".gif
+	ffmpeg -i "$1".mp4 -vf "fps=10,scale=640:-1:flags=lanczos" -c:v pam -f image2pipe - | convert -delay 10 - -loop 0 -layers optimize "$1".gif
 }
 
 # GET GIF
@@ -181,7 +192,7 @@ make_gif() {
 # $3 is the duration of the gif in seconds.
 # $4 is the gif file name.
 get_gif() {
-  	pre_gif "$1" "$2" "$3" "$4";
-	  make_gif "$4";
-	  rm "$4".mp4;
+  pre_gif "$1" "$2" "$3" "$4";
+	make_gif "$4";
+	rm "$4".mp4;
 }
