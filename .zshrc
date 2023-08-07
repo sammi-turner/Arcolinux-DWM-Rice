@@ -61,8 +61,8 @@ alias hx='helix'
 
 # TAKE COMMAND
 take() {
-    mkdir $1;
-    cd $1;
+  mkdir $1;
+  cd $1;
 }
 
 # MAKEPKG
@@ -97,8 +97,8 @@ export EDITOR='hx'
 
 # LANGUAGE SERVER PROTOCOL
 lsp() {
-	hx --grammar fetch;
-	hx --grammar build;
+  hx --grammar fetch;
+  hx --grammar build;
 }
 
 # EXIT
@@ -125,9 +125,9 @@ alias rmg='rm -rf .git'
 # GIT ADD-COMMIT-PUSH
 # The $1 parameter is the commit message.
 acp() {
-	git add .;
-	git commit -m $1;
-	git push;
+  git add .;
+  git commit -m $1;
+  git push;
 }
 
 # YT-DLP
@@ -143,7 +143,7 @@ alias neo='neofetch'
 # It generates a series of jpg images from an mp4 file.
 # Its $1 parameter is the file name.
 stills() {
-	ffmpeg -i "$1".mp4 thumb%04d.jpg -hide_banner
+  ffmpeg -i "$1".mp4 thumb%04d.jpg -hide_banner
 }
 
 # CLIP
@@ -155,7 +155,7 @@ stills() {
 # $3 is the clip duration in seconds.
 # $4 is the output file name.
 clip() {
-	ffmpeg -i "$1".mp4 -ss "$2" -t "$3" "$4".mp4
+  ffmpeg -i "$1".mp4 -ss "$2" -t "$3" "$4".mp4
 }
 
 # PLAY
@@ -166,21 +166,21 @@ clip() {
 # $2 is the end time.
 # $3 is the file name.
 play() {
-	ffplay -ss "$1" -t "$2" "$3".mp4
+  ffplay -ss "$1" -t "$2" "$3".mp4
 }
 
 # PRE GIF
 # This function uses ffmpeg.
 # It is a helper function called by get_gif.
 pre_gif() {
-	  ffmpeg -i "$1".mp4 -ss "$2" -t "$3" -vf "fps=10,scale=640:-1" -an "$4".mp4
+  ffmpeg -i "$1".mp4 -ss "$2" -t "$3" -vf "fps=10,scale=640:-1" -an "$4".mp4
 }
 
 # MAKE GIF
 # This function uses ffmpeg and imagemagick.
 # It is a helper function called by get_gif.
 make_gif() {
-	ffmpeg -i "$1".mp4 -vf "fps=10,scale=640:-1:flags=lanczos" -c:v pam -f image2pipe - | convert -delay 10 - -loop 0 -layers optimize "$1".gif
+  ffmpeg -i "$1".mp4 -vf "fps=10,scale=640:-1:flags=lanczos" -c:v pam -f image2pipe - | convert -delay 10 - -loop 0 -layers optimize "$1".gif
 }
 
 # GET GIF
@@ -193,6 +193,6 @@ make_gif() {
 # $4 is the gif file name.
 get_gif() {
   pre_gif "$1" "$2" "$3" "$4";
-	make_gif "$4";
-	rm "$4".mp4;
+  make_gif "$4";
+  rm "$4".mp4;
 }
