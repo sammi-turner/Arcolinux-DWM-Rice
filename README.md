@@ -2,13 +2,19 @@
 
 <img src="arco-dwm-rice.png" width="100%" height="auto" />
 
+<br>
+
 ## Download ISO
 
 [Arcolinux torrents](https://fosstorrents.com/distributions/arcolinux/)
 
+<br>
+
 ## Keybinds
 
 Keybinds are listed in the cheatsheet.
+
+<br>
 
 ## Post install checklist
 
