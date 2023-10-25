@@ -56,9 +56,6 @@ up() {
 # PARU UPDATE
 alias upall="paru -Syu --noconfirm"
 
-# HELIX
-alias hx='helix'
-
 # TAKE COMMAND
 take() {
   mkdir $1;
@@ -69,7 +66,7 @@ take() {
 alias mp='makepkg -si'
 
 # EDIT THIS FILE
-alias zrc='helix ~/.zshrc'
+alias zrc='vim ~/.zshrc'
 
 # CHANGE OWNERSHIP FROM ROOT TO USER
 alias cho='sudo chown -R $USER'
@@ -84,28 +81,16 @@ alias run='sudo docker run'
 # INSTALL WITH MAKE
 alias mci='sudo make clean install'
 
-# RELOAD THIS FILE
-alias sb='source .bashrc'
-
 # DOWNLOAD WITH YT-DLP
 alias dwebm='yt-dlp'
 alias dmp4='yt-dlp -f mp4'
 alias dmp3='yt-dlp -x --audio-format mp3'
 
 # DEFAULT EDITOR
-export EDITOR='hx'
+export EDITOR='vim'
 
-# LANGUAGE SERVER PROTOCOL
-lsp() {
-  hx --grammar fetch;
-  hx --grammar build;
-}
-
-# EXIT
-alias e='exit'
-
-# OPEN THIS FILE IN HELIX
-alias zrc='hx .zshrc'
+# OPEN THIS FILE IN VIM
+alias vim='vim .zshrc'
 
 # LS ALIASES
 alias dots='ls -a | sort'
