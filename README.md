@@ -32,7 +32,6 @@ rofi
 
 ```
 base devel
-helix
 transmission-gtk 
 yt-dlp 
 galculator 
