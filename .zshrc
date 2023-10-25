@@ -18,8 +18,8 @@ unsetopt SHARE_HISTORY
 [[ $- != *i* ]] && return
 
 export HISTCONTROL=ignoreboth:erasedups
-export EDITOR='helix'
-export VISUAL='helix'
+export EDITOR='vim'
+export VISUAL='vim'
 
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
