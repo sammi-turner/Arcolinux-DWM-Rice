@@ -69,7 +69,7 @@ en_GB
 but you might prefer US English or a different language instead. Then make the following scripts executable.
 
 ```
-.config/dwm-arco/sxhkd/sxhkdrc
+.config/arco-dwm/sxhkd/sxhkdrc
 .config/autostart.sh
 ```
 
