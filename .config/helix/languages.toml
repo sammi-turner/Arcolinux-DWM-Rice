@@ -1,7 +1,0 @@
-[[language]]
-name = "rust"
-auto-format = true
-
-[[language]]
-name = "go"
-auto-format = true
