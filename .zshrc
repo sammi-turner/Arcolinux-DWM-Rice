@@ -29,11 +29,6 @@ if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
 
-# LS COMMANDS
-alias dots='ls -a | sort'
-alias lst='ls | sort'
-alias la='ls -A'
-
 # PACMAN
 alias sps='sudo pacman -S'
 alias spr='sudo pacman -R'
