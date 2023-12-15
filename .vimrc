@@ -1,5 +1,4 @@
 syntax on
-colorscheme habamax
 
 set mouse=a
 set belloff=all
