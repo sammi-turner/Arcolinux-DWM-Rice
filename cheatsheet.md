@@ -112,7 +112,7 @@ alt + ctrl + left arrow
 
 alt + b
 
-### Termite
+### Terminal
 
 alt + Return
 
