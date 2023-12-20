@@ -20,7 +20,7 @@ Keybinds are listed in the cheatsheet.
 
 ## Post install checklist
 
-1. Remove the following packages using pamac.
+1. Remove the following packages.
 
 ```
 variety
@@ -28,9 +28,10 @@ conky
 rofi
 ```
 
-2. Add the following packages using pamac.
+2. Add the following packages.
 
 ```
+pamac
 base devel
 transmission-gtk 
 yt-dlp 
@@ -40,10 +41,11 @@ audacity
 kolourpaint
 ```
 
-3. I like to have a back-up desktop environment in case DWM breaks, so I would also install xfce4 at the terminal.
+3. I like to have a back-up desktop environment in case DWM breaks, so I would also add these packages.
 
 ```
-sudo pacman -S xfce4 xfce4-goodies
+xfce4
+xfce4-goodies
 ```
 
 4. Change the default shell to zsh with
