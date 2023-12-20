@@ -2,13 +2,13 @@
 alt + b
     firefox
 
-# Terminalss
+# Terminal
 alt + Return
     xfce4-terminal
 
 # Thunar
 alt + f
-	thunar
+    thunar
 
 # Pavucontrol
 alt + v
@@ -78,3 +78,6 @@ XF86MonBrightnessUp
 XF86MonBrightnessDown
     xbacklight -dec 10
 
+# Logout
+alt + l
+    archlinux-logout
