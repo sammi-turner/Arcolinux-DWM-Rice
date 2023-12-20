@@ -2,7 +2,7 @@
 
 # Arcolinux-DWM-Rice
 
-<img src="arco-dwm-rice.png" width="100%" height="auto" />
+<img src="dwm-rice.png" width="100%" height="auto" />
 
 <br>
 
