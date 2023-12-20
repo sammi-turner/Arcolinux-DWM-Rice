@@ -78,7 +78,7 @@ but you might prefer US English or a different language instead. Then make the f
 6. Recompile DWM with the command
 
 ```
-make clean install
+sudo make clean install
 ```
 
 7. Install the following packages from the AUR
