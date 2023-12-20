@@ -2,9 +2,9 @@
 alt + b
     firefox
 
-# Termite
+# Terminalss
 alt + Return
-    termite
+    xfce4-terminal
 
 # Thunar
 alt + f
@@ -24,7 +24,7 @@ alt + n
 
 # Pamac
 alt + p
-    pamac-manager
+    pamac
 
 # Scrot
 Print
@@ -41,10 +41,6 @@ alt + shift + p
 # Reload sxhkd
 alt + shift + s
 	pkill -USR1 -x sxhkd
-
-# Logout
-F12
-    archlinux-logout
 
 # Raise volume
 XF86AudioRaiseVolume

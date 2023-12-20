@@ -8,7 +8,6 @@ function run {
 }
 
 run "dex $HOME/.config/autostart/arcolinux-welcome-app.desktop"
-run "pamac-tray"
 run "nitrogen --restore &"
 run "xfce4-power-manager"
 run "blueberry-tray"
