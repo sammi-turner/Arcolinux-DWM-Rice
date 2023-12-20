@@ -84,9 +84,6 @@ alias dmp3='yt-dlp -x --audio-format mp3'
 # DEFAULT EDITOR
 export EDITOR='vim'
 
-# OPEN THIS FILE IN VIM
-alias vim='vim .zshrc'
-
 # LS ALIASES
 alias dots='ls -a | sort'
 alias lst='ls | sort'
