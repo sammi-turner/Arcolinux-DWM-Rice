@@ -154,4 +154,4 @@ alt + shift + s
 
 ### Logout
 
-F12
+alt + l
