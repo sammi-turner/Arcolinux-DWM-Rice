@@ -132,17 +132,9 @@ alt + w
 
 alt + n
 
-### Pamac
-
-alt + p
-
 ### Scrot
 
 Print
-
-### Flameshot
-
-shift + Print
 
 ### Picom toggle
 
