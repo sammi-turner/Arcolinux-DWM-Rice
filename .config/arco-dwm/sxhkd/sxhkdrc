@@ -22,17 +22,9 @@ alt + w
 alt + n
      nitrogen
 
-# Pamac
-alt + p
-    pamac
-
 # Scrot
 Print
     scrot
-
-# Flameshot
-shift + Print
-     flameshot gui
 
 # Picom Toggle
 alt + shift + p
