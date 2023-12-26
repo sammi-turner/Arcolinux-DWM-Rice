@@ -32,7 +32,7 @@ rofi
 
 ```
 pamac
-base devel
+base-devel
 transmission-gtk 
 yt-dlp 
 galculator 
