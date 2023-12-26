@@ -1,12 +1,20 @@
+<br>
+
 # Cheat sheet
+
+<br>
 
 ## Suckless website
 
 https://dwm.suckless.org
 
+<br>
+
 ## Mod
 
 Windows key
+
+<br>
 
 ## Keybinds set in config.h
 
@@ -106,6 +114,8 @@ alt + ctrl + right arrow
 
 alt + ctrl + left arrow
 
+<br>
+
 ## Keybinds set in sxhkdrc 
 
 ### Firefox
@@ -147,3 +157,5 @@ alt + shift + s
 ### Logout
 
 alt + l
+
+<br>
