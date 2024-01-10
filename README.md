@@ -48,7 +48,14 @@ xfce4
 xfce4-goodies
 ```
 
-4. Change the default shell to zsh with
+4. For a stylish GTK theme and some icons, install the following packages from the AUR
+
+```
+dracula-gtk-theme
+tela-icon-theme
+```
+
+5. Change the default shell to zsh with
 
 ```
 $ chsh -s /bin/zsh
@@ -56,7 +63,7 @@ $ chsh -s /bin/zsh
 
 Note that this change will only activate after logging back in.
 
-5. Replace the existing dotfiles with the ones in this repo, with the possible exeption of
+6. Replace the existing dotfiles with the ones in this repo, with the possible exeption of
 
 ```
 .config/user-dirs.locale
@@ -75,17 +82,10 @@ but you might prefer US English or a different language instead. Then make the f
 .config/autostart.sh
 ```
 
-6. Recompile DWM with the command
+7. Recompile DWM with the command
 
 ```
 sudo make clean install
-```
-
-7. Install the following packages from the AUR
-
-```
-dracula-gtk-theme
-tela-icon-theme
 ```
 
 8. Open lxappearance and choose your preferred settings.
