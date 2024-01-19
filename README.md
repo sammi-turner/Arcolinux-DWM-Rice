@@ -63,7 +63,7 @@ $ chsh -s /bin/zsh
 
 Note that this change will only activate after logging back in.
 
-6. Replace the existing dotfiles with the ones in this repo, with the possible exeption of
+6. Replace the existing dotfiles with the ones in this repo, with the possible exception of
 
 ```
 .config/user-dirs.locale
