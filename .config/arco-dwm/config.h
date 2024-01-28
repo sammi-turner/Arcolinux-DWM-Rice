@@ -47,7 +47,6 @@ static const Rule rules[] = {
 	 */
 	/* class                       			instance    title      tags mask      isfloating   monitor */
 	{ "Gimp",                      			NULL,       NULL,       0,            0,           -1 },
-	{ "Xfce4-terminal",            			NULL,       NULL,       0,            0,           -1 },
 	{ "firefox",                   			NULL,       NULL,       0,            0,           -1 },
 	{ "Arcolinux-welcome-app.py",  			NULL,       NULL,       0,            0,           -1 },
 	{ "Arcolinux-calamares-tool.py",  		NULL,       NULL,       0,            0,           -1 },	
@@ -89,7 +88,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
-	{ MODKEY,                       XK_p,      spawn,          	{.v = dmenucmd } },
+	{ MODKEY,                       XK_d,      spawn,          	{.v = dmenucmd } },
 	{ MODKEY,                       XK_j,      focusstack,     	{.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     	{.i = -1 } },
 	{ MODKEY,                       XK_Right,  focusstack,     	{.i = +1 } },
@@ -104,7 +103,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_g,      setlayout,      	{.v = &layouts[1]} },
 	{ MODKEY,                       XK_m,      setlayout, 	   	{.v = &layouts[2]} },
 	{ MODKEY,                       XK_f,      setlayout,	  	{.v = &layouts[3]} },
-  { MODKEY|ShiftMask,             	XK_j,      rotatestack,    	{.i = +1 } },
+  	{ MODKEY|ShiftMask,             XK_j,      rotatestack,    	{.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_k,      rotatestack,    	{.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, 	{0} },
 	{ MODKEY|ShiftMask,             XK_r,      self_restart,   	{0} },
