@@ -20,7 +20,7 @@ Windows key
 
 ### Dmenu
 
-mod + p
+mod + d
 
 ### Move focus clockwise
 
