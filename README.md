@@ -26,6 +26,7 @@ Keybinds are listed in the cheatsheet.
 variety
 conky
 rofi
+octopi
 ```
 
 2. Add the following packages.
