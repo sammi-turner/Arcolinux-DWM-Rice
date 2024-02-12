@@ -20,7 +20,7 @@ Keybinds are listed in the cheatsheet.
 
 ## Post install checklist
 
-1. Remove the following packages.
+1. Remove the following cringe packages.
 
 ```
 variety
@@ -29,7 +29,7 @@ rofi
 octopi
 ```
 
-2. Add the following packages.
+2. Add the following based packages.
 
 ```
 pamac
