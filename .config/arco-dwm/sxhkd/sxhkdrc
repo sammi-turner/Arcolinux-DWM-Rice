@@ -2,7 +2,11 @@
 alt + b
     firefox
 
-# Terminal
+# VSCode
+alt + c
+    code
+
+# Terminalss
 alt + Return
     xfce4-terminal
 
@@ -22,9 +26,17 @@ alt + w
 alt + n
      nitrogen
 
+# Pamac
+alt + p
+    pamac
+
 # Scrot
 Print
     scrot
+
+# Flameshot
+shift + Print
+     flameshot gui
 
 # Picom Toggle
 alt + shift + p
@@ -32,7 +44,7 @@ alt + shift + p
 
 # Reload sxhkd
 alt + shift + s
-	pkill -USR1 -x sxhkd
+    pkill -USR1 -x sxhkd
 
 # Raise volume
 XF86AudioRaiseVolume
