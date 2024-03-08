@@ -208,3 +208,6 @@ get_gif() {
   make_gif "$4";
   rm "$4".mp4;
 }
+
+# opam configuration
+[[ ! -r /home/nix/.opam/opam-init/init.zsh ]] || source /home/nix/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
